@@ -2,10 +2,6 @@ var socket = io();
 socket.on('connect', function () {
     console.log('connected to Node server');
 
-    socket.emit('createMessage', {
-        from: 'Michael',
-        text: 'Yup, that works for me.'
-    });
 
 })
 
