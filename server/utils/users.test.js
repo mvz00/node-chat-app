@@ -37,7 +37,7 @@ describe('Users', () => {
 
     });
 
-    it('should remove the user', () => {
+    it('should remove a user', () => {
         var userId = '1';
         var user = users.removeUser(userId);
 
